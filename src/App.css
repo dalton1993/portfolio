@@ -1,0 +1,99 @@
+html {
+  background-color:#e5d5dc;
+}
+
+body{
+  background-color:#e5d5dc;
+}
+
+.bkg {
+  background-color:#e5d5dc;
+  height:100vh;
+}
+
+.toggle-header h1 {
+  padding-left: 20px;
+  padding-right:20px;
+  font-weight: 300;
+  font-family: "Playfair Display";
+  font-size:25px;
+  color:white; 
+  margin:0;
+}
+
+.project-slide {
+  height:100vh;
+  overflow-y: scroll;
+
+}
+
+.project-slide::-webkit-scrollbar  {
+  display:none;
+}
+
+.name {
+  font-size: 100px;
+  color:#100c0b;
+  font-family: 'Oleo Script', cursive;
+  font-weight: 300;
+}
+
+.description {
+  font-size: 30px;
+  color:#100c0b;
+  font-family: 'Roboto Slab', serif;
+}
+
+.description2 {
+  font-size: 12px;
+  color:#100c0b;
+  font-family: 'Roboto Slab', serif;
+}
+
+.about-wrap {
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  max-width:33rem;
+  max-height: 20rem;
+  padding:15px;
+}
+
+
+
+.about-wrap h1 {
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-wrap p {
+  font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+.inactive {
+  display:none;
+}
+
+.active {
+  display:block;
+}
+
+.project-image{
+  opacity:0.2;
+}
+
+
+.project-image2{
+  opacity:1;
+}
+
+.proj-wrap {
+  user-select: none;
+}
+
+
+
+

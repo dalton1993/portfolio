@@ -1,0 +1,237 @@
+.main-nav .contact a {
+    color:#100c0b;
+    border-radius: 50%;
+    border: 1px solid #100c0b;
+    box-shadow: inset 2px 2px 8px black;
+    height:3rem;
+    width:3rem;
+    margin-top:5px;
+    margin-bottom:5px;
+    background:#b39392;
+    text-decoration: none;
+}
+
+.main-nav .contact div {
+    color:#100c0b;
+    border-radius: 50%;
+    border: 1px solid #100c0b;
+    box-shadow: inset 2px 2px 8px black;
+    height:3rem;
+    width:3rem;
+    margin-top:5px;
+    margin-bottom:5px;
+    background:#b39392;
+    text-decoration: none;
+}
+
+.main-nav .contact div:hover {
+    cursor: pointer;
+    background:white;
+    color:#100c0b;
+}
+
+.min-btm-nav svg {
+    color:#100c0b;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.logo {
+    background:#b39392;
+    color:#100c0b;
+    box-shadow: inset 2px 2px 8px black;
+    font-family: 'Oleo Script', cursive;
+    font-size:30px;
+}
+
+.main-nav a:hover {
+    background:white;
+    color:#100c0b;
+}
+
+.main-nav {
+    background:#100c0b;
+}
+
+.topNav p {
+    font-size: 20px;
+    color:#100c0b;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.topNav li p {
+    margin:0;
+    padding-left: 50px;
+    font-size: 30px;
+    color:#100c0b;
+    font-family: 'Roboto Slab', serif;
+}
+
+.topNav li a {
+    text-decoration: none;
+}
+
+.icon-wrap i {
+    color:#e5d5dc;
+}
+
+.about-wrap p {
+    font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .main-nav{
+        display:none; 
+    }
+
+    .topNav{
+        left:50%;
+        right:50%;
+    }
+
+    .me-wrap {
+       left:50% !important;
+       transform: translate(-50%,-50%);
+       top:50% !important;
+       top:50% !important;
+    }
+
+    .name{
+        font-size: 30px;
+        text-align:center;
+    }
+
+    .description {
+        font-size: 20px;
+        text-align:center;
+    }
+
+    .description2 {
+        text-align:center;
+    }
+
+    .nav-items li p {
+        font-size:20px;
+    }
+
+    .work-head {
+        display:none;
+    }
+
+    .nav-head {
+        display:grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .nav-head ul li p {
+        justify-self: center;
+        padding:22px;
+    }
+
+    .min-links {
+        display:flex !important; 
+    }
+
+    .min-links li svg {
+        margin:6px;
+        color:#100c0b;
+    }
+
+    .about-wrap {
+        top:20rem !important;
+    }
+
+    .about-wrap p {
+        font-size:12px;
+    }
+
+    .proj-nav {
+        font-size: 10px;
+    }
+
+    .proj-nav ul li {
+        padding:10px;
+    }
+
+    .proj-wrap {
+        top:20rem !important;
+    }
+
+    .size-none {
+        display:none !important;
+    }
+
+    .no-back {
+        background:none !important;
+    }
+
+    .min-logos {
+        display: none;
+    }
+
+    .btm-nav {
+        justify-content: center !important;
+    }
+
+    .btm-nav svg {
+        color:#100c0b;
+    }
+
+    .btm-nav li {
+        padding:20px;
+    }
+}
+
+@media screen and (min-width:750px){
+    .min-btm-nav {
+        display:none !important;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .nav-items li p {
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .topNav{
+        left:20px !important;
+        right: 20px !important;
+    }
+
+    .topNav .nav-head {
+        grid-template-columns: 1fr !important;
+        
+    }
+
+    .topNav .nav-head ul {
+        justify-self: center !important;
+    }
+
+}
+
+@media screen and (max-width: 1500px), (max-height: 760px) {
+    .bottom{
+        display:none !important;
+    }
+}
+
+@media screen and (max-width:400px){
+    .about-wrap p {
+        font-size: 10px;
+    }
+}
+
+
+ 
